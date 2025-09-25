@@ -12,6 +12,8 @@ pipenv install gunicorn
 For running dev:
 pipenv run flask --app server.py run
 
+whitespace-collapse: preserve for text area display
+
 For running on prod
 pipenv run gunicorn server:app
 ## Before render
